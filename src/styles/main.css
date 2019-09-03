@@ -1,0 +1,14 @@
+#article1 {
+    border-style: double;
+    width: 50%;
+}
+
+#article2 {
+    border-style: dashed;
+    width: 50%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
