@@ -1,14 +1,12 @@
-#article1 {
-    border-style: double;
-    width: 50%;
-}
-
-#article2 {
-    border-style: dashed;
-    width: 50%;
-}
-
-.wrapper {
+#container {
     display: flex;
-    flex-direction: row;
-}
+    min-height: 1500px;
+  }
+  
+  #audrey {
+    background-color: purple;
+    color: snow;
+    min-height: 100px;
+    width: 50px;
+    position: fixed;
+  }
